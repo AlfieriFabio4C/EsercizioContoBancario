@@ -46,6 +46,7 @@ public class ContoEsteso extends ContoBancario {
             soldi = Integer.parseInt(JOptionPane.showInputDialog("Inserire i soldi da prelevare"));
             if (bilancio > soldi) {
                 bilancio = bilancio - soldi;
+                System.out.println(bilancio);
             } else {
                 System.out.println("I soldi da prelevare superano il suo conto.");
             }
