@@ -44,6 +44,7 @@ public class ContoBancario {
             soldi = Integer.parseInt("Inserire i soldi da prelevare");
             if (bilancio > soldi) {
                 bilancio = bilancio - soldi;
+                System.out.println(bilancio);
             } else {
                 System.out.println("I soldi da prelevare superano il suo conto.");
             }
