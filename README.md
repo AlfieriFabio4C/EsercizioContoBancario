@@ -1,2 +1,4 @@
 # EsercizioContoBancario
-Esercizio
+
+In questo progetto su netbeans, abbiamo la possibilità di creare un nostro conto bancario.
+Abbiamo un proprio conto che possiamo modificare, depositando soldi in esso o prelevando.
