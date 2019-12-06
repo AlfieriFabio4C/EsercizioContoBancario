@@ -11,6 +11,8 @@ superclasse, tutti i metodi che si sono creati, e li si possono utilizzare nella
 sottoclasse. In più la classe derivata può aggiungere delle funzionalità proprie. 
 L'override si mette sopra un metodo che è stato sovrascritto in un'altra classe a cui
 sono stati ereditati i metodi.
+L'overload è il sovraccarico di metodi che permette di modificarli con diverse varianti
+secondo i parametri passati come riferimento. 
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
 vengono modificati e ridefiniti secondo le esigenze della sottoclasse. 
