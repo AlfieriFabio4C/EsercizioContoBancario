@@ -34,9 +34,11 @@ vengono modificati e ridefiniti secondo le esigenze della sottoclasse.
 
 
 Il this in Java viene utilizzato per fare riferimento, ad una variabile dell'oggetto
-corrente con il costruttore o un metodo. In caso di estensione di una classe, nel costruttore
-della sottoclasse si richiama il costruttore della super-classe e si mette di default 
-super(nomevariabile), ma si potrebbe mettere this.variabileoggetto = variabilelocale.
+corrente con il costruttore o un metodo.
+In caso di estensione di una classe, nel costruttore
+della sottoclasse si può richiamare il costruttore della super-classe e si mette di default 
+super(parametri), ma si potrebbe mettere this.variabileoggetto = variabilelocale, ma in caso 
+la variabile di oggetto estesa è private non si può scrivere this.variabileoggetto = variabilelocale.
 
 
 Alfieri Fabio 4C
