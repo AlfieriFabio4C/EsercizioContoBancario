@@ -25,8 +25,8 @@ nella memoria, e fino a che non si crea un oggetto quella variabile non esiste.
 Le variabili static invece sono comuni a tutti gli oggetti di quella classe.
 
 
-Nel costruttore le variabili di istanza si aggiornano ogni volta che finisce il metodo
-e quindi non occupano spazio nella memoria.
+Nel costruttore le variabili locali ogni volta che finisce il metodo vengono rilasciate
+e quindi occupano uno spazio nella memoria temporanea.
 
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
@@ -34,8 +34,9 @@ vengono modificati e ridefiniti secondo le esigenze della sottoclasse.
 
 
 Il this in Java viene utilizzato per fare riferimento, ad una variabile dell'oggetto
-corrente con il costruttore o un metodo. In caso di estensione, nel costruttore
-della sottoclasse si mette super(nomevariabile).
+corrente con il costruttore o un metodo. In caso di estensione di una classe, nel costruttore
+della sottoclasse si richiama il costruttore della super-classe e si mette di default 
+super(nomevariabile), ma si potrebbe mettere this.variabileoggetto = variabilelocale.
 
 
 Alfieri Fabio 4C
