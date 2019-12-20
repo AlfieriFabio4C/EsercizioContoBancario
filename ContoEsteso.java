@@ -40,9 +40,8 @@ public class ContoEsteso extends ContoBancario {
     @Override
     public int prelievo() {
         int soldi;
-        bilancio = bilancio + fido;
             soldi = Integer.parseInt(JOptionPane.showInputDialog("Inserire i soldi da prelevare"));
-            if (bilancio > soldi) {
+            if (bilancio +fido >= soldi) {
                 bilancio = bilancio - soldi;
                 System.out.println(bilancio);
             } else {
