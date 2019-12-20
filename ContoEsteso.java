@@ -17,7 +17,7 @@ public class ContoEsteso extends ContoBancario {
 
     public ContoEsteso(String numeroConto) {
         super(numeroConto);
-        this.fido = fido = 1000;
+        this.fido = 1000;
     }
 
     public ContoEsteso(int bilancio, String numeroConto) {
