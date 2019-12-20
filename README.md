@@ -8,15 +8,14 @@ Abbiamo usato i seguenti meccanismi e riferimenti:
 
 Ereditarietà: è una proprietà dove delle classi chiamate sottoclassi, ereditano da una 
 superclasse, tutti i metodi che si sono creati, e li si possono utilizzare nella
-sottoclasse. Nel costruttore si mette davanti alle variabili ereditate super, che sta
-a significare che quelle variabili sono della superclasse.
+sottoclasse.
 In più la classe derivata può aggiungere delle funzionalità proprie. 
 L'override si mette sopra un metodo che è stato sovrascritto in un'altra classe a cui
 sono stati ereditati i metodi.
 L'overload è il sovraccarico di metodi che permette di modificarli con diverse varianti
 secondo i parametri passati come riferimento. 
 
-
+All'inizio di una classe si dichiarano le variabili d'oggetto che occupano uno spa
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
 vengono modificati e ridefiniti secondo le esigenze della sottoclasse. 
