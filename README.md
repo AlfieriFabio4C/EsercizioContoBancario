@@ -15,12 +15,15 @@ sono stati ereditati i metodi.
 L'overload è il sovraccarico di metodi che permette di modificarli con diverse varianti
 secondo i parametri passati come riferimento. 
 
-All'inizio di una classe si dichiarano le variabili d'oggetto che occupano uno spa
+All'inizio di una classe si dichiarano le variabili d'oggetto che occupano uno spazio 
+nella memoria, e fino a che non si crea un oggetto quella variabile non esiste. Le variabile static
+
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
 vengono modificati e ridefiniti secondo le esigenze della sottoclasse. 
 
 Il this in Java viene utilizzato per fare riferimento, ad una variabile dell'oggetto
-corrente con il costruttore o un metodo.
+corrente con il costruttore o un metodo. In caso di estensione, nel costruttore
+della sottoclasse si mette super(nomevariabile).
 
 Alfieri Fabio 4C
