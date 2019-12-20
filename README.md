@@ -16,8 +16,11 @@ L'overload è il sovraccarico di metodi che permette di modificarli con diverse 
 secondo i parametri passati come riferimento. 
 
 All'inizio di una classe si dichiarano le variabili d'oggetto che occupano uno spazio 
-nella memoria, e fino a che non si crea un oggetto quella variabile non esiste. Le variabile static
+nella memoria, e fino a che non si crea un oggetto quella variabile non esiste. 
+Le variabili static invece sono comuni a tutti gli oggetti di quella classe.
 
+Nel costruttore le variabili di istanza non occupano spazio nella memoria poichè alla fine del metodo
+quelle non esistono più.
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
 vengono modificati e ridefiniti secondo le esigenze della sottoclasse. 
