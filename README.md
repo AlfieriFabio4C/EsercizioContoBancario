@@ -19,8 +19,8 @@ All'inizio di una classe si dichiarano le variabili d'oggetto che occupano uno s
 nella memoria, e fino a che non si crea un oggetto quella variabile non esiste. 
 Le variabili static invece sono comuni a tutti gli oggetti di quella classe.
 
-Nel costruttore le variabili di istanza non occupano spazio nella memoria poichè alla fine del metodo
-quelle non esistono più.
+Nel costruttore le variabili di istanza si aggiornano ogni volta che finisce il metodo
+e quindi non occupano spazio nella memoria.
 
 Polimorfismo: Un concetto che deriva dall'ereditarietà, dove i metodi della superclasse 
 vengono modificati e ridefiniti secondo le esigenze della sottoclasse. 
